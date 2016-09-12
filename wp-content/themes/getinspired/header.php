@@ -26,8 +26,8 @@
 
             <menu>
                 <li><a href="/events" title="События">События</a></li>
-                <li><a href="/page2" title="Блог">Блог</a></li>
-                <li><a href="/page3" title="Контакты">Контакты</a></li>
+                <li><a href="/blog" title="Блог">Блог</a></li>
+                <li><a href="/contact" title="Контакты">Контакты</a></li>
             </menu>
             
             <a id="signin" href="/signin">Войти</a>
