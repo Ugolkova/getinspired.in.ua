@@ -1,0 +1,126 @@
+@import url(reset.css);
+@font-face {
+    font-family: MyriadPro;
+    src: url(../font/MyriadPro.otf);
+}
+@font-face {
+    font-family: Open Sans;
+    src: url(../font/OpenSans.ttf);
+}
+html{
+    height: 100%;
+}
+body{
+    font: 15px/15px 'PT Sans', 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+body>header{
+    background-color: #39444B;
+    color: #FFF;
+    float: left;
+    height: 100%;
+    padding: 0px 45px 0px 40px; 
+    position: fixed;
+    z-index: 2;
+}
+a{
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6{
+    font: 29px/43px 'Open Sans', 'PT Sans', 'Roboto', sans-serif;
+    text-align: center;
+}
+.clear{
+    clear: both;
+    float: none;
+    height: 1px;
+}
+#logo{
+    background: url(../img/logo.png) left center no-repeat;
+    background-size: 63px;
+    color: inherit;
+    display: block;
+    font: 29px/76px 'Open Sans', 'PT Sans', 'Roboto', sans-serif;
+    height: 63px;
+    margin: 55px 0px 0px;
+    padding: 0px 0px 0px 68px;
+    text-decoration: none;
+}
+#gotop{
+    background: url('../img/ic_top.png') center top no-repeat;
+    bottom: 150px;
+    display: block;
+    height: 50px;
+    position: fixed;
+    right: 3%;
+    width: 50px;
+    z-index: 2000;
+}
+#gotop:hover{
+    background-position: center bottom;
+}
+button{
+    background: red;
+}
+menu{
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+menu li{
+    color: #E8E8E8;
+    padding: 15px 0px;
+}
+menu li a{
+    color: inherit;
+    text-decoration: none;
+}
+menu li a:hover{
+    color: #FFD220;
+}    
+@keyframes signin {
+    from{
+        background-color: #39444B;
+        border-color: #E8E8E8;
+    }
+    to{
+        background-color: #FFD220;
+        border-color: #FFD220;
+    }
+}
+#signin{
+    border: 1px solid #E8E8E8;
+    border-radius: 9px;
+    bottom: 35px;
+    display: block;
+    font-family: 'Open Sans', 'PT Sans', 'Roboto', sans-serif;
+    height: auto;
+    left: 99px;
+    padding: 8px 35px;
+    position: fixed;
+    width: auto;
+}
+#signin:hover{
+    animation-name: signin;
+    animation-duration: 0.3s;    
+    background-color: #FFD220;
+    border-color: #FFD220;
+    color: #39444B;
+}
+#content{
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    position: relative;
+}
+#inner{
+    padding: 74px 20px 20px 355px;
+}
+#wpadminbar{
+    display: none;
+}

@@ -1,0 +1,119 @@
+table.swgc-calendar {
+	margin:0 0 5px 0;
+}
+
+.swgc-wrapper {
+	overflow:hidden;
+	background:url(../imgs/column-divide.gif) repeat-y 0 0;
+	margin-bottom:20px;
+}
+
+.swgc-wrapper .column {
+	float:left;
+	width:300px;
+	margin:0 30px;
+}
+
+.swgc-wrapper .first {
+	margin-left:0;
+}
+
+.swgc-wrapper .last {
+	margin-right:0;
+}
+
+#swgc-calendar table.swgc-calendar {
+	width:100%;
+	margin-left:1px;
+}
+
+#swgc-booking-form {
+	width:100%;
+}
+
+#swgc-booking-form fieldset {
+	margin:1em 0;
+}
+
+#swgc-booking-form label {
+	font-size:1em;
+	margin:0 0 5px 0;
+	display:block;
+}
+
+#swgc-booking-form input,
+#swgc-booking-form textarea {
+	width:100%;
+	font-size:1em;
+}
+
+#swgc-booking-form textarea {
+	height:175px;
+}
+
+#swgc-booking-form input.button-primary,
+#swgc-booking-form input.button-secondary {
+	width:auto;
+}
+
+#swgc-booking-form select {
+	font-size:1em;
+}
+
+#swgc-booking-form select option {
+	padding:0 6px;
+}
+
+#swgc-booking-form fieldset.split-column {
+	overflow:hidden;
+}
+
+#swgc-booking-form fieldset.split-column fieldset {
+	float:left;
+	width:140px; margin:0 10px;
+}
+
+#swgc-booking-form fieldset.split-column fieldset.first {
+	margin-left:0;
+}
+
+#swgc-booking-form fieldset.split-column fieldset.last {
+	margin-right:0;
+}
+
+#swgc-error-log {
+	/*display:none;*/
+	color:#EF5A5A;
+}
+
+#swgc-error-log h4 {
+	margin:0 0 15px; padding:0;
+}
+
+#swgc-mark-days-wrapper {
+	margin:5px 0 15px 0;
+	overflow:hidden;
+}
+
+#swgc-mark-days-wrapper a {
+	float:right;
+	padding:2px 6px;
+	font-size:11px; text-decoration:none;
+	background:#fff;
+	border:1px solid #dfdfdf;
+	color:#21759B;
+	
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	-khtml-border-radius:15px;
+}
+
+#swgc-mark-days-wrapper a:hover {
+	color:#d54e21;
+}
+
+#swgc-mark-days-wrapper a.swgc-calendar-active {
+	text-decoration:underline;
+	color:#d54e21;
+}

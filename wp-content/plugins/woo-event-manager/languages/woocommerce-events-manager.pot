@@ -1,0 +1,119 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Events Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Feb 10 2016 00:06:40 GMT+0500 (Pakistan Standard "
+"Time)\n"
+"POT-Revision-Date: Wed Feb 10 2016 00:08:34 GMT+0500 (Pakistan Standard "
+"Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "WooCommerce Events Manager"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://cybersourcepk.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "A plugin for events in products."
+msgstr ""
+
+#. Author of the plugin
+msgid "CybersourcePK"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:275
+msgid "Events Manager"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:331
+msgid "Select Event Date :"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:333
+msgid "Enter Product Event Date"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:345
+msgid "Select Event End Date (optional) :"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:347
+msgid "Enter Product Event End Date"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:360
+msgid "Event Starting Time :"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:362
+msgid "Enter Product Event Starting Time"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:376
+msgid "Custom Add To Cart link :"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:378
+msgid "Enter Custom Link for Add To Cart button"
+msgstr ""
+
+#: ../widget/ccw_class.php:14
+msgid "Custom Calendar widget"
+msgstr ""
+
+#: ../widget/ccw_class.php:55
+msgid "New title"
+msgstr ""
+
+#: ../widget/ccw_class.php:83
+msgid "Title:"
+msgstr ""
+
+#: ../widget/ccw_class.php:88
+msgid "# of Next Months:"
+msgstr ""
+
+#: ../widget/ccw_class.php:103
+msgid "# of Previous Months:"
+msgstr ""
+
+#: ../widget/ccw_class.php:118
+msgid "Categories:"
+msgstr ""
+
+#: ../widget/ccw_class.php:121 ../widget/ccw_class.php:123
+msgid "All Categories"
+msgstr ""
+
+#. translators: Calendar caption: 1: month name, 2: 4-digit year
+#: ../widget/ccw_class.php:314
+#, php-format
+msgctxt "calendar caption"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: ../widget/ccw_class.php:346 ../widget/ccw_class.php:362
+#, php-format
+msgid "View posts for %1$s %2$s"
+msgstr ""

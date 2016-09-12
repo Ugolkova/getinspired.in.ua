@@ -1,0 +1,192 @@
+# Loco Gettext template
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Events Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-10 02:14+0100\n"
+"POT-Revision-Date: Wed Feb 10 2016 01:42:31 GMT+0500 (Pakistan Standard Time)\n"
+"PO-Revision-Date: 2016-02-10 02:16+0100\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Poedit 1.8.7\n"
+"Last-Translator: \n"
+"Language: nl_NL\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#. Name of the plugin
+msgid "WooCommerce Events Manager"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://cybersourcepk.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "A plugin for events in products."
+msgstr ""
+
+#. Author of the plugin
+msgid "CybersourcePK"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:135
+msgid "January"
+msgstr "januari"
+
+#: ../woocommerce-events-manager.php:136
+msgid "February"
+msgstr "februari"
+
+#: ../woocommerce-events-manager.php:137
+msgid "March"
+msgstr "maart"
+
+#: ../woocommerce-events-manager.php:138
+msgid "April"
+msgstr "april"
+
+#: ../woocommerce-events-manager.php:139
+msgid "May"
+msgstr "mei"
+
+#: ../woocommerce-events-manager.php:140
+msgid "June"
+msgstr "juni"
+
+#: ../woocommerce-events-manager.php:141
+msgid "July"
+msgstr "juli"
+
+#: ../woocommerce-events-manager.php:142
+msgid "August"
+msgstr "augustus"
+
+#: ../woocommerce-events-manager.php:143
+msgid "September"
+msgstr "september"
+
+#: ../woocommerce-events-manager.php:144
+msgid "October"
+msgstr "oktober"
+
+#: ../woocommerce-events-manager.php:145
+msgid "November"
+msgstr "november"
+
+#: ../woocommerce-events-manager.php:146
+msgid "December"
+msgstr "december"
+
+#: ../woocommerce-events-manager.php:148
+msgid "Monday "
+msgstr "maandag"
+
+#: ../woocommerce-events-manager.php:149
+msgid "Tuesday "
+msgstr "dinsdag"
+
+#: ../woocommerce-events-manager.php:150
+msgid "Wednesday "
+msgstr "woensdag"
+
+#: ../woocommerce-events-manager.php:151
+msgid "Thursday"
+msgstr "donderdag"
+
+#: ../woocommerce-events-manager.php:152
+msgid "Friday "
+msgstr "vrijdag"
+
+#: ../woocommerce-events-manager.php:153
+msgid "Saturday"
+msgstr "zaterdag"
+
+#: ../woocommerce-events-manager.php:154
+msgid "Sunday"
+msgstr "zondag"
+
+#: ../woocommerce-events-manager.php:156
+msgid "hrs"
+msgstr "uur"
+
+#: ../woocommerce-events-manager.php:305
+msgid "Events Manager"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:361
+msgid "Select Event Date :"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:363
+msgid "Enter Product Event Date"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:375
+msgid "Select Event End Date (optional) :"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:377
+msgid "Enter Product Event End Date"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:390
+msgid "Event Starting Time :"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:392
+msgid "Enter Product Event Starting Time"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:406
+msgid "Custom Add To Cart link :"
+msgstr ""
+
+#: ../woocommerce-events-manager.php:408
+msgid "Enter Custom Link for Add To Cart button"
+msgstr ""
+
+#: ../widget/ccw_class.php:14
+msgid "Custom Calendar widget"
+msgstr ""
+
+#: ../widget/ccw_class.php:55
+msgid "New title"
+msgstr ""
+
+#: ../widget/ccw_class.php:83
+msgid "Title:"
+msgstr ""
+
+#: ../widget/ccw_class.php:88
+msgid "# of Next Months:"
+msgstr ""
+
+#: ../widget/ccw_class.php:103
+msgid "# of Previous Months:"
+msgstr ""
+
+#: ../widget/ccw_class.php:118
+msgid "Categories:"
+msgstr ""
+
+#: ../widget/ccw_class.php:121 ../widget/ccw_class.php:123
+msgid "All Categories"
+msgstr ""
+
+#. translators: Calendar caption: 1: month name, 2: 4-digit year
+#: ../widget/ccw_class.php:314
+#, php-format
+msgctxt "calendar caption"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: ../widget/ccw_class.php:346 ../widget/ccw_class.php:362
+#, php-format
+msgid "View posts for %1$s %2$s"
+msgstr ""

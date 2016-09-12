@@ -1,0 +1,119 @@
+table.swgc-calendar {
+	border-collapse:collapse;
+	width:100%;
+}
+table.swgc-calendar swgc-calendar-caption {
+	text-align:center;	
+}
+table.swgc-calendar td.swgc-calendar-control-next {
+	text-align:right;	
+}
+table.swgc-calendar thead td.swgc-calendar-caption {
+	text-align:center;
+	font-weight:bold;
+}
+table.swgc-calendar th {
+	color:#333;
+	width:14.2%;
+}
+table.swgc-calendar tbody td {
+	width:14.2%;
+	background-color:#fff;
+	background-repeat:repeat-x;
+	background-position:bottom left;
+	text-align:right;
+	font-size:0.8em;
+	color:#888;
+	padding:0 0.8em 2.2em;
+	border:1px solid #DFDFDF;
+}
+#swgc-legend {
+	margin:20px 0;
+	font-size:0.9em;
+}
+#swgc-legend dt, #swgc-legend dd {
+	float:left; display:inline;
+}
+#swgc-legend dt {
+	width:10px; height:10px;
+	border:1px solid #666;
+	background-repeat:repeat;
+	margin:5px 0 0 0
+}
+#swgc-legend dd {
+	padding:0 10px 0 10px;
+}
+
+#swgc_calendar_prev, #swgc_calendar_next {
+	cursor:pointer;
+}
+table.swgc-calendar tbody td.swgc-calendar-booked, .swgc-calendar-booked {
+	background:#E5F1F7;
+}
+table.swgc-calendar tbody td.swgc-calendar-today {
+	/*background:#F3D2C6;*/
+}
+table.swgc-calendar tbody td.swgc-calendar-unavailable {
+	background:#eaccdf;
+}
+table.swgc-calendar tbody td.swgc-calendar-active {
+	font-weight:bold;
+	text-decoration:underline;
+	color:#000;
+}
+table.swgc-calendar tbody td.swgc-calendar-day {
+	cursor:pointer;
+}
+table.swgc-calendar tbody td.swgc-cell-hover {
+	background:#efefef;
+}
+table.swgc-calendar tbody td a {
+	display:block; width:100%; height:100%;
+}
+table.swgc-calendar td.swgc-calendar-cell-pad {
+	background:#efefef;
+}
+div#swgc-legend {
+	margin:10px 0;
+}
+div#swgc-legend .legend-item {
+	overflow:hidden;
+	height:20px;
+	line-height:15px;
+	vertical-align:middle;
+}
+div#swgc-legend .legend-item span {
+	float:left;
+	width:12px; height:12px;
+	margin-right:10px;
+	border:1px solid #999;
+	text-indent:-9999px;
+}
+div#swgc-legend .legend-item span.available {
+	background:#fff;
+}
+div#swgc-legend .legend-item span.bookings {
+	background:#E5F1F7;
+}
+div#swgc-legend .legend-item span.today {
+	/*background:#F3D2C6;*/
+}
+div#swgc-legend .legend-item span.unavailable {
+	background:#eaccdf;
+}
+#swgc-note {
+	margin:10px 0 0 0;
+}
+.swgc-location-post {
+	margin-bottom:2em;
+}
+.swgc-location-post #swgc-note {
+	background:#efefef;
+	padding:10px;
+}
+#swgc-available-slots-async {
+	margin-bottom:20px;
+}
+#swgc-available-slots-async .advice {
+	margin-bottom:0.2em;
+}
