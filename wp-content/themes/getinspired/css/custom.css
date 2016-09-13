@@ -12,6 +12,11 @@ html{
 }
 body{
     font: 15px/15px 'PT Sans', 'Roboto', sans-serif;
+    background-image: url(../img/cover_1.png), url(../img/cover_2.png);
+    background-position: bottom right, top right;
+    background-attachment: fixed;
+    background-repeat: no-repeat, repeat-y;  
+    color: #1e2327;
     min-height: 100vh;
 }
 body>header{
@@ -114,7 +119,6 @@ menu li a:hover{
     color: #39444B;
 }
 #content{
-    background-color: #f9f9f9;
     min-height: 100vh;
     position: relative;
 }
@@ -123,4 +127,61 @@ menu li a:hover{
 }
 #wpadminbar{
     display: none;
+}
+.mc4wp-form{
+    background: #ffcc03;
+    border: 2px solid #ffcc03;
+    border-radius: 15px;
+    margin: 50px auto 0px;
+    position: relative;
+    width: 384px;
+}
+.mc4wp-form.active{
+    background: #ffbc03;
+    border-color: #ffbc03;
+}    
+.mc4wp-form input[type="email"]{
+    border: 0px;
+    border-radius: 13px 0px 0px 13px;
+    font-size: 17px;
+    line-height: 36px;
+    padding: 0px 8px;
+    outline: none;    
+    width: 252px;
+}
+.mc4wp-form input[type="submit"]{
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 34px;
+    margin: 0px 0px 0px -2px;
+    outline: none;
+} 
+.mc4wp-response{
+    color: red;
+    font-size: 13px;
+    font-style: italic;
+    position: absolute;
+    top: -21px;
+    z-index: 222222;
+}
+
+#logo:hover{
+    /*text-shadow: 1px 1px 7px #ffcc03
+    color: #ffcc03;*/
+}
+
+#logo:hover{
+    animation: pulse 1s alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pulse {
+  0% {
+    color: #FFF;
+  }
+  100% {
+    color: #ffcc03;
+  }
 }
